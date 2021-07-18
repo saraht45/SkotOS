@@ -24,7 +24,6 @@ void create() {
    compile_object(MATERIALS);
    compile_object(BASE_PROPERTIES);
    compile_object(DETAILS);
-   compile_object(CRAFTD);
    compile_object(CRAWLERS);
 
    load_programs("/base/data");
