@@ -2,14 +2,6 @@
   <Base:PropertyTypes>
     <Base:PropertyTypeIntList>
       <Base:PropertyTypeInt property="page:allowall"/>
-      <Base:PropertyTypeInt property="skill:advancedefensive"/>
-      <Base:PropertyTypeInt property="skill:attackingdefensive"/>
-      <Base:PropertyTypeInt property="skill:cutoffensive"/>
-      <Base:PropertyTypeInt property="skill:dodgedefensive"/>
-      <Base:PropertyTypeInt property="skill:feintoffensive"/>
-      <Base:PropertyTypeInt property="skill:fumbledefensive"/>
-      <Base:PropertyTypeInt property="skill:guarddefensive"/>
-      <Base:PropertyTypeInt property="skill:idledefensive"/>
       <Base:PropertyTypeInt property="skill:lang1"/>
       <Base:PropertyTypeInt property="skill:lang2"/>
       <Base:PropertyTypeInt property="skill:lang3"/>
@@ -17,13 +9,6 @@
       <Base:PropertyTypeInt property="skill:lang5"/>
       <Base:PropertyTypeInt property="skill:lang6"/>
       <Base:PropertyTypeInt property="skill:lang7"/>
-      <Base:PropertyTypeInt property="skill:recoverdefensive"/>
-      <Base:PropertyTypeInt property="skill:restdefensive"/>
-      <Base:PropertyTypeInt property="skill:retiredefensive"/>
-      <Base:PropertyTypeInt property="skill:salutedefensive"/>
-      <Base:PropertyTypeInt property="skill:teaching"/>
-      <Base:PropertyTypeInt property="skill:thrustoffensive"/>
-      <Base:PropertyTypeInt property="skill_study"/>
       <Base:PropertyTypeInt property="skotos:currentlang"/>
     </Base:PropertyTypeIntList>
     <Base:PropertyTypeFloatList>
