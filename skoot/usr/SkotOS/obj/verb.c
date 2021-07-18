@@ -754,7 +754,7 @@ mapping query_properties(varargs int derived) {
 	    "obscurity",
 	    "target-abstracts",
 	    "log-evokes",
-	    "audible",,
+	    "audible",
 	    "always-make",
 	    "connects",
 	    "evoke-allowed",
