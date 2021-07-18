@@ -16,7 +16,6 @@
 # define OBJ_ERROR		"/base/obj/error"
 # define OBJ_OUTPUT		"/base/obj/output"
 # define BASE_LIB_PROX		"/base/lib/prox"
-# define BASE_LIB_CRAFTING	"/base/lib/crafting"
 # define ACTIONS		"/base/sys/actions"
 # define CRAWLERS		"/base/sys/crawlers"
 # define BASE_PROPERTIES        "/base/sys/properties"
