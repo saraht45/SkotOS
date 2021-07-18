@@ -86,8 +86,8 @@ void tell_each ( object *users, object who, string msg, object body) {
 	   s1     = split[0];
 	   speech = split[1];
 	   s2     = split[2];
-	   speech = LANG->do_garble(speech, who, body);
-	   s1     = LANG->do_lang_name(s1, who, body);
+	  /* speech = LANG->do_garble(speech, who, body);
+	   s1     = LANG->do_lang_name(s1, who, body); */
 	   us[i]->paragraph(s1 + "\"" + speech + "\"" + s2);
        } else {
 	   us[i]->paragraph(msg);

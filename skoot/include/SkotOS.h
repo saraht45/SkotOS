@@ -16,7 +16,6 @@
 # define LOGD			(SKOTDIR + "/sys/logd")
 # define LOG_NODE		(SKOTDIR + "/obj/lognode")
 
-# define LANG			(SKOTDIR + "/sys/lang")
 # define TIP			(SKOTDIR + "/sys/tip")
 # define NPCBRAINS		(SKOTDIR + "/sys/npc-brains")
 # define NPCBODIES		(SKOTDIR + "/sys/npc-bodies")

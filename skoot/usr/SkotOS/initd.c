@@ -41,7 +41,6 @@ void create() {
 		     "~SkotOS/sys/tip",
 		     "~SkotOS/sys/npc-bodies",  
 		     "~SkotOS/sys/npc-brains",
-		     "~SkotOS/sys/lang",
 		     "~SkotOS/sys/helpd",
 		     "~SkotOS/sys/merry",
 		     "~SkotOS/sys/assistd",
