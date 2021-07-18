@@ -58,7 +58,6 @@ private int	audible;
 private string *prepositions;
 
 private string	log_evokes;
-private int	crafting;
 private int	always_make;
 private int	connects;
 
@@ -465,16 +464,6 @@ string *query_actions() {
 }
 
 atomic
-void set_crafting(int truth) {
-   crafting = truth;
-   Dirty();
-}
-
-int query_crafting() {
-   return crafting;
-}
-
-atomic
 void set_always_make(int truth) {
    always_make = truth;
    Dirty();
@@ -633,9 +622,6 @@ query_downcased_property(string prop) {
 	 return query_audible();
       case "audible":
 	 return ur_audible(this_object());
-      case "crafting:local":
-      case "crafting":
-	 return query_crafting();
       case "always-make:local":
       case "always-make":
 	 return query_always_make();
@@ -714,10 +700,6 @@ void set_downcased_property(string prop, mixed val, varargs int opaque) {
 	 /* Not listed in SID */
 	 set_audible(!!val);
 	 break;
-      case "crafting":
-	 /* Not listed in SID */
-	 set_crafting(!!val);
-	 break;
       case "always-make":
 	 /* Not listed in SID */
 	 set_always_make(!!val);
@@ -772,8 +754,7 @@ mapping query_properties(varargs int derived) {
 	    "obscurity",
 	    "target-abstracts",
 	    "log-evokes",
-	    "audible",
-	    "crafting",
+	    "audible",,
 	    "always-make",
 	    "connects",
 	    "evoke-allowed",
@@ -793,7 +774,6 @@ mapping query_properties(varargs int derived) {
 	    "target-abstracts:local",
 	    "log-evokes:local",
 	    "audible:local",
-	    "crafting:local",
 	    "always-make:local",
 	    "connects:local",
 	    "evoke-allowed:local",

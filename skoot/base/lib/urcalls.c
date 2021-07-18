@@ -135,27 +135,3 @@ A1(mapping, ur_content_group, query_content_group, string)
 /* light */
 
 A1(float, ur_luminosity, query_luminosity, string)
-
-/* crafting */
-
-O0(string *, ur_ingredients, query_ingredients)
-R1(float, ur_ingredient_amount, query_ingredient_amount, string)
-R1(string, ur_ingredient_description, query_ingredient_description, string)
-
-O0(string *, ur_tools, query_tools)
-R1(string, ur_tool_description, query_tool_description, string)
-
-O0(string *, ur_crafting_verbs, query_crafting_verbs)
-
-R0(string, ur_see_skill, query_see_skill)
-R0(int, ur_see_level, query_see_level)
-
-R0(string, ur_do_skill, query_do_skill)
-R0(int, ur_do_level, query_do_level)
-
-R0(int, ur_crafting_time, query_crafting_time)
-R0(object, ur_crafting_intermediate, query_crafting_intermediate)
-R0(object, ur_crafting_failure, query_crafting_failure)
-
-R0(int, ur_crafting_attention, query_crafting_attention)
-R0(int, ur_crafting_held, query_crafting_held)

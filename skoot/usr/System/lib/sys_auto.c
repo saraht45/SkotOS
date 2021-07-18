@@ -398,7 +398,7 @@ void womble_auto() {
 
    wombles = ({
       "details", "properties", "notes", "requests", "xml", "bulk", "consent",
-      "crafting", "die_messages", "initials", "description", "descriptions",
+      "die_messages", "initials", "description", "descriptions",
       "innards", "errors", "messages", "banner", "look_and_feel", "core"
    });
    sz = sizeof(wombles);

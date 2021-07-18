@@ -19,7 +19,6 @@
 # define BASE_LIB_CRAFTING	"/base/lib/crafting"
 # define ACTIONS		"/base/sys/actions"
 # define CRAWLERS		"/base/sys/crawlers"
-# define CRAFTD			"/base/sys/craftd"
 # define BASE_PROPERTIES        "/base/sys/properties"
 # define DETAILS		"/base/sys/details"
 
