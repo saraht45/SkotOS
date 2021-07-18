@@ -9,7 +9,6 @@
       <SID:Child node="OBJ(SID:Base:Misc)"/>
       <SID:Child node="OBJ(SID:Base:Details)"/>
       <SID:Child node="OBJ(SID:Base:Clothing)"/>
-      <SID:Child node="OBJ(SID:Base:Crafting)"/>
       <SID:Child node="OBJ(SID:Base:InitialContents)"/>
       <SID:Child node="OBJ(SID:Base:InitialProperties)"/>
       <SID:Child node="OBJ(SID:Core:Properties)"/>
