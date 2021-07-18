@@ -1146,16 +1146,6 @@ void show_item(object *users, object who, NRef what, string types...) {
    tell_to(users, describe_item(what, who, types...),  who);
 }
 
-void cmd_DEV_make(object user, object body, Ob *what) {
-   NRef what_ref;
-
-   if (what_ref = search_one(user, FALSE, what, body,
-			     CRAFTD->query_objects()...)) {
-      body->act_make(NRefOb(what_ref), "make", "makes", "");
-   }
-}
-
-
 void desc_possess(object *users, object possessor, object possessee) {
    int i;
 
